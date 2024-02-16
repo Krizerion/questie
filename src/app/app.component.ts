@@ -12,7 +12,6 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent implements OnInit, OnDestroy {
   title = 'questie';
   test = 'test3';
-  private test2 = 'test';
 
   doSomethingss(): void {
     console.log('test');
@@ -24,9 +23,5 @@ export class AppComponent implements OnInit, OnDestroy {
 
   ngOnDestroy(): void {
     throw new Error('Method not implemented.');
-  }
-
-  private testMethod(): number {
-    return 5;
   }
 }

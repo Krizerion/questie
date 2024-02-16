@@ -27,7 +27,7 @@
     "noUnusedParameters": true,
     "paths": {
       "@shared/*": ["./src/shared/*"],
-      "@angular/*": ["./node_modules/@angular/*"]
+      "@angular/*": ["../node_modules/@angular/*"]
     }
   },
   "angularCompilerOptions": {
