@@ -1,1 +1,31 @@
-<h1>paca</h1>
+<div>header</div>
+<router-outlet></router-outlet>
+<div class="p-d-flex p-ai-center p-jc-between p-mt-3">
+  <div class="p-col-6">
+    <h2 class="p-ml-3">HELLO</h2>
+  </div>
+  <div class="p-d-flex p-col-6 p-jc-end">
+    <div class="p-mr-3">
+      <p-radioButton name="language" value="en" [(ngModel)]="lang" inputId="en"></p-radioButton>
+      <label class="p-ml-1" for="en">EN</label>
+    </div>
+    <div class="p-mr-3">
+      <p-radioButton name="language" value="bg" [(ngModel)]="lang" inputId="bg"></p-radioButton>
+      <label class="p-ml-1" for="bg">BG</label>
+    </div>
+    <div class="p-mr-3">
+      <p-radioButton name="language" value="fr" [(ngModel)]="lang" inputId="fr"></p-radioButton>
+      <label class="p-ml-1" for="fr">fr</label>
+    </div>
+  </div>
+</div>
+
+<div class="p-fluid p-formgrid p-grid p-jc-center p-mt-3 p-mr-0">
+  <div class="p-col-6">
+    <div class="p-field p-col-12">
+      <label for="date">DATE</label>
+      <p-calendar inputId="date" [(ngModel)]="date"></p-calendar>
+    </div>
+  </div>
+</div>
+<div>footer</div>
